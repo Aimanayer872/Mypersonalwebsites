@@ -194,3 +194,41 @@ text-align: center;
 padding: 2rem;
 margin-top: 3rem;
 }
+
+@media (max-width: 768px) {
+      header 
+      {
+          padding: 10px 20px;
+      }
+      .navigation a 
+      {
+          margin-right: 20px;
+          font-size: 1em;
+      }
+      .home 
+      {
+          padding: 20px;
+      }
+      .content 
+      {
+          max-width: 90%;
+      }
+
+      .content h2 
+      {
+          font-size: 2.5em;
+      }
+      .content h4 
+      {
+          font-size: 1.5em;
+      }
+      .buttn a 
+      {
+      padding: 15px 30px; 
+      }
+      .logo-image 
+      {
+      max-width: 100%;
+      height: auto; 
+     }
+  }
