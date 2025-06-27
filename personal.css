@@ -216,5 +216,48 @@ div.gallery
   background-color: aliceblue;
 }
 
+ @media (max-width: 768px) {
+      header {
+          padding: 15px 20px;
+      }
+      .navigation a {
+          margin-right: 20px;
+          font-size: 1em;
+      }
+      .main {
+          flex-direction: column; 
+          align-items: center; 
+      }
+      .about img {
+          width: 100%; 
+          height: auto; 
+      }
+      .about-text h1 {
+          font-size: 40px; 
+      }
+      .about-text p {
+          font-size: 16px; /
+      }
+      .educational {
+          flex-direction: column; 
+      }
 
+      .educational h2 {
+          font-size: 1.5em; 
+      }
+      .desc {
+          font-size: 14px; 
+      }
+
+      .navigation a 
+      {
+      padding: 10px 15px; 
+    }
+
+    .about img {
+      max-width: 100%; 
+      height: auto;
+  }
+
+  }
 
